@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		783185D01823DB2400A22145 /* KSRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 783185CF1823DB2400A22145 /* KSRangeSlider.m */; };
 		78FC1984182167AA00761508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FC1983182167AA00761508 /* Foundation.framework */; };
 		78FC1986182167AA00761508 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FC1985182167AA00761508 /* CoreGraphics.framework */; };
 		78FC1988182167AB00761508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FC1987182167AB00761508 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		78FC19A5182167AB00761508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FC1987182167AB00761508 /* UIKit.framework */; };
 		78FC19AD182167AB00761508 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78FC19AB182167AB00761508 /* InfoPlist.strings */; };
 		78FC19AF182167AB00761508 /* KSRangeSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC19AE182167AB00761508 /* KSRangeSliderTests.m */; };
+		78FC19BF18216E8600761508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FC19BE18216E8500761508 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		783185CE1823DB2400A22145 /* KSRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSRangeSlider.h; sourceTree = "<group>"; };
+		783185CF1823DB2400A22145 /* KSRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSRangeSlider.m; sourceTree = "<group>"; };
 		78FC1980182167AA00761508 /* KSRangeSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSRangeSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FC1983182167AA00761508 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78FC1985182167AA00761508 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,7 @@
 		78FC19AA182167AB00761508 /* KSRangeSliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSRangeSliderTests-Info.plist"; sourceTree = "<group>"; };
 		78FC19AC182167AB00761508 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78FC19AE182167AB00761508 /* KSRangeSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSRangeSliderTests.m; sourceTree = "<group>"; };
+		78FC19BE18216E8500761508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,7 @@
 		78FC1977182167AA00761508 = {
 			isa = PBXGroup;
 			children = (
+				78FC19BB182167D800761508 /* CustomSlider */,
 				78FC1989182167AB00761508 /* KSRangeSlider */,
 				78FC19A8182167AB00761508 /* KSRangeSliderTests */,
 				78FC1982182167AA00761508 /* Frameworks */,
@@ -150,6 +156,16 @@
 				78FC19AB182167AB00761508 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78FC19BB182167D800761508 /* CustomSlider */ = {
+			isa = PBXGroup;
+			children = (
+				78FC19BE18216E8500761508 /* Assets.xcassets */,
+				783185CE1823DB2400A22145 /* KSRangeSlider.h */,
+				783185CF1823DB2400A22145 /* KSRangeSlider.m */,
+			);
+			name = CustomSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +247,7 @@
 			files = (
 				78FC199C182167AB00761508 /* Images.xcassets in Resources */,
 				78FC198E182167AB00761508 /* InfoPlist.strings in Resources */,
+				78FC19BF18216E8600761508 /* Assets.xcassets in Resources */,
 				78FC1997182167AB00761508 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783185D01823DB2400A22145 /* KSRangeSlider.m in Sources */,
 				78FC199A182167AB00761508 /* KSViewController.m in Sources */,
 				78FC1994182167AB00761508 /* KSAppDelegate.m in Sources */,
 				78FC1990182167AB00761508 /* main.m in Sources */,
@@ -461,6 +479,7 @@
 				78FC19B4182167AB00761508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78FC19B5182167AB00761508 /* Build configuration list for PBXNativeTarget "KSRangeSliderTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +488,7 @@
 				78FC19B7182167AB00761508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
