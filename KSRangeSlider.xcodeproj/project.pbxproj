@@ -36,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		783185CE1823DB2400A22145 /* KSRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSRangeSlider.h; sourceTree = "<group>"; };
-		783185CF1823DB2400A22145 /* KSRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSRangeSlider.m; sourceTree = "<group>"; };
+		783185CE1823DB2400A22145 /* KSRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSRangeSlider.h; path = KSRangeSlider/CustomSlider/KSRangeSlider.h; sourceTree = "<group>"; };
+		783185CF1823DB2400A22145 /* KSRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSRangeSlider.m; path = KSRangeSlider/CustomSlider/KSRangeSlider.m; sourceTree = "<group>"; };
 		78FC1980182167AA00761508 /* KSRangeSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSRangeSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FC1983182167AA00761508 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78FC1985182167AA00761508 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
